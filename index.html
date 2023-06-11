@@ -1,0 +1,988 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Samet Arda Erdogan - Portfolio</title>
+
+    <!--
+    - favicon
+  -->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/logo.ico"
+      type="image/x-icon"
+    />
+
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!--
+    - #MAIN
+  -->
+
+    <main>
+      <!--
+      - #SIDEBAR
+    -->
+
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img
+              src="./assets/images/me.jpg"
+              alt="Samet Arda Erdogan"
+              width="80"
+            />
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="Samet Arda Erdogan">Samet Arda Erdogan</h1>
+
+            <p class="title">Data and ML Systems Enthusiast</p>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
+
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
+
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+
+                <a href="mailto:sametarda.dev@gmail.com" class="contact-link"
+                  >sametarda.dev@gmail.com</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Phone</p>
+
+                <a href="tel:+12133522795" class="contact-link"
+                  >+90 507 007 8926</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+
+                <address>Ankara, Turkey</address>
+              </div>
+            </li>
+          </ul>
+
+          <div class="separator"></div>
+
+          <ul class="social-list">
+            <li class="social-item">
+              <a
+                href="https://www.linkedin.com/in/ardasamet/"
+                class="social-link"
+              >
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a href="https://github.com/ardasamett" class="social-link">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+      <!--
+      - #main-content
+    -->
+
+      <div class="main-content">
+        <!--
+        - #NAVBAR
+      -->
+
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>About</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Resume</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Portfolio</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Blog</button>
+            </li>
+          </ul>
+        </nav>
+
+        <!--
+        - #ABOUT
+      -->
+
+        <article class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
+
+          <section class="about-text">
+            <p>
+              Loves being active in communities, rock music lover, and
+              self-taught learner. <u>Experienced</u> in data analytics.
+              <u>Skilled</u>
+              in machine learning and systems, and data science. Curiosity and
+              passion about learning new technologies and implementing new
+              ideas. Ability to work in teams and multidisciplinary settings.
+            </p>
+          </section>
+
+          <!--
+          - service
+        -->
+
+          <section class="service">
+            <h3 class="h3 service-title">What i'm doing</h3>
+
+            <ul class="service-list">
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/analysis.svg
+                "
+                    alt="design icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Data Analysis</h4>
+
+                  <p class="service-item-text">
+                    Examine (large) datasets to uncover meaningful insights and
+                    help you make data-driven decisions.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img src="./assets/images/icon-dev.svg" width="40" />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Learning: MLOps</h4>
+
+                  <p class="service-item-text">
+                    Integrates model development, training, deployment, and
+                    sustainability processes to ensure the successful
+                    implementation and maintenance of machine learning projects.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img src="./assets/images/tech.svg" width="40" />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Other Techs</h4>
+
+                  <p class="service-item-text">
+                    Curious about web development and software architectures. As
+                    an engineer, he loves all systems.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img src="./assets/images/community.svg" width="40" />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Community Leader</h4>
+
+                  <p class="service-item-text">
+                    Lead university societies/communities. I like talking and
+                    working with people.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <section class="service">
+            <h3 class="h3 service-title">Soft Skills</h3>
+
+            <ul class="service-list">
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/achievement.svg
+                "
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Self-taught learner</h4>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img src="./assets/images/achievement.svg" width="40" />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Solution-oriented</h4>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img src="./assets/images/achievement.svg" width="40" />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Team player</h4>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img src="./assets/images/achievement.svg" width="40" />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Adaptability</h4>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <!--
+          - open it in case
+        -->
+
+          <div class="modal-container" data-modal-container>
+            <div class="overlay" data-overlay></div>
+
+            <section class="testimonials-modal">
+              <button class="modal-close-btn" data-modal-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+
+              <div class="modal-img-wrapper">
+                <figure class="modal-avatar-box">
+                  <img
+                    src="./assets/images/avatar-1.png"
+                    alt="Daniel lewis"
+                    width="80"
+                    data-modal-img
+                  />
+                </figure>
+
+                <img src="./assets/images/icon-quote.svg" alt="quote icon" />
+              </div>
+
+              <div class="modal-content">
+                <div data-modal-text>
+                  <p></p>
+                </div>
+              </div>
+            </section>
+          </div>
+
+          <!--
+          - clients
+        --></article>
+
+        <!--
+        - #RESUME
+      -->
+
+        <article class="resume" data-page="resume">
+          <header>
+            <h2 class="h2 article-title">Resume</h2>
+          </header>
+          <a class="h4 timeline-item-title" href="https://www.w3schools.com"
+            ><u>You can reach my CV in PDF format by clicking here.</u></a
+          >
+          <br />
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Experience</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Data & Analytics Intern</h4>
+                <h4 class="h4 timeline-item-title">Unilever</h4>
+
+                <span>Jun 2023 — Present</span>
+
+                <p class="timeline-text">
+                  ✥ I am currently undertaking a 6-month internship through the
+                  Data & Analytics Gennext program.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Data Analyst</h4>
+                <h4 class="h4 timeline-item-title">Jotform</h4>
+
+                <span>Sep 2022 — Jun 2023</span>
+
+                <p class="timeline-text">
+                  ✥ I have collaborated with multiple teams, providing them with
+                  the desired data and data analyses.
+                  <br />✥ I conducted thorough data analysis, identifying
+                  patterns, trends, and correlations to uncover key business
+                  opportunities. <br />✥ I have assisted individuals with
+                  varying levels of technological knowledge in data-driven
+                  decision-making processes. <br />✥ I have worked on low-cost,
+                  results-oriented SQL queries in Google Cloud. <br />✥
+                  Additionally, I have had the opportunity to work with
+                  individuals from various domains. <br />✥ <u>Tech:</u> Python,
+                  SQL, Google BigQuery
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Data Analyst Intern</h4>
+                <h4 class="h4 timeline-item-title">Jotform</h4>
+
+                <span>June 2022 — Aug 2022</span>
+
+                <p class="timeline-text">
+                  ✥ <u>I have performed a pricing page funnel project,</u> where
+                  I transformed a scattered dataset containing logs of user
+                  interactions on the pricing page into a meaningful format.
+                  <br />
+                  By doing so, I have worked on user conversion values and
+                  examined user insights to gain valuable insights into their
+                  behavior and preferences.<br /><br />
+                  ✥ <u>Handled Topics:</u> Data Cleaning, Manipulation, and
+                  Visualization.<br />
+                  ✥ <u>Tech:</u> Python, Numpy, Pandas, Seaborn, Matplotlib,
+                  SciPy, Plotly <br />✥ <u>Additional</u>, I built a basic app
+                  on RDS (Remote Developer Server) using Linux, WSL, SFTP, SSH,
+                  MySQL, React JS, API, Github, pnpm techs.
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Education</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  University of turkish aeronautical association
+                </h4>
+                <h4 class="h4 timeline-item-title">
+                  Computer Engineering, BSc
+                </h4>
+
+                <span>Sep 2019 — June 2024</span>
+
+                <p class="timeline-text">
+                  ✥ 1 Year - Preparatory School (English) <br />
+                  ✥ The theoretical courses I took and found most beneficial are
+                  as follows: Natural Language Processing, Machine Learning,
+                  Intro to Deep Learning, Digital Image Processing, Data
+                  Analysis
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Politechnika Częstochowska
+                </h4>
+                <h4 class="h4 timeline-item-title">Computer Science, BSc</h4>
+
+                <span>Oct 2021 - Mar 2022</span>
+
+                <p class="timeline-text">Attended Erasmus+ Exchange Program</p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Communities</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Global AI Hub</h4>
+                <h4 class="h4 timeline-item-title">Core Member</h4>
+
+                <span>Feb 2022 - Jan 2023</span>
+
+                <p class="timeline-text">
+                  ✥ I contribute to the 10million.AI project to increase
+                  awareness of artificial intelligence.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Big Data Turkey</h4>
+                <h4 class="h4 timeline-item-title">AI Team Member</h4>
+
+                <span>May 2021 - Aug 2022 </span>
+
+                <p class="timeline-text">
+                  ✥ For the BAYES project, I prepared many educational materials
+                  about "Data Science".
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Google Developer Students Club - UTAA
+                </h4>
+                <h4 class="h4 timeline-item-title">Core Team Lead / AI Team</h4>
+
+                <span>Dec 2019 - Jan 2023 </span>
+
+                <p class="timeline-text">
+                  ✥ I organized both online and in-person events, handling
+                  resources, planning, and execution. <br />✥ I formed software
+                  groups and offered software solutions. <br />✥ I provided
+                  guidance, resources, and planning assistance to individuals
+                  interested in starting software development. <br />✥ I
+                  conducted training sessions for members on various topics
+                  including Python 101, Python 102, Java 101, Numpy 101, and
+                  Pandas 101.
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Awards</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  AWS ML Scholarship: Machine Learning Nanodegree Course
+                </h4>
+
+                <span>07/2021</span>
+
+                <p class="timeline-text">
+                  ✥ I successfully completed this course on Oct 12, 2021, and
+                  provided a comprehensive, practice- based tutorial on how to
+                  solve machine learning problems step-by-step, software
+                  engineering practice (e.g. clean and modular code, code
+                  efficiency, refactoring, documentation, etc.), and AWS Cloud.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Bertelsmann Scholarship: Intro to ML with Tensorflow Challenge
+                  Course
+                </h4>
+
+                <span>12/2021</span>
+
+                <p class="timeline-text">
+                  ✥ I got a scholarship for Technology Scholarship Program
+                  powered by Bertelsmann for the Intro to ML with Tensorflow
+                  Challenge Course
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Hackathon: Türk Telekom İşin Geleceği | 3rd Place,
+                </h4>
+
+                <span>05/2021</span>
+
+                <p class="timeline-text">
+                  ✥ As a team, we developed a prototype that supports remote
+                  working culture using Artificial Intelligence and Augmented
+                  Reality technologies.
+                </p>
+              </li>
+            </ol>
+          </section>
+        </article>
+
+        <!--
+        - #PORTFOLIO
+      -->
+
+        <article class="portfolio" data-page="portfolio">
+          <header>
+            <h2 class="h2 article-title">Portfolio</h2>
+          </header>
+
+          <section class="projects">
+            <ul class="filter-list">
+              <li class="filter-item">
+                <button class="active" data-filter-btn>All</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Highlight</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Old</button>
+              </li>
+            </ul>
+            <div class="filter-select-box">
+              <button class="filter-select" data-select>
+                <div class="select-value" data-selecct-value>
+                  Select category
+                </div>
+
+                <div class="select-icon">
+                  <ion-icon name="chevron-down"></ion-icon>
+                </div>
+              </button>
+
+              <ul class="select-list">
+                <li class="select-item">
+                  <button data-select-item>All</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Highlight</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Old</button>
+                </li>
+              </ul>
+            </div>
+
+            <ul class="project-list">
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="highlight"
+              >
+                <a href="https://github.com/ardasamett/byMood">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/bymood.png"
+                      alt="finance"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">byMood</h3>
+
+                  <p class="project-category">
+                    AI supported recommendation system
+                  </p>
+                  <p class="project-category">May 2023</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="old"
+              >
+                <a href="https://github.com/ardasamett/CRM-Analysis">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/crm.png"
+                      alt="finance"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">CRM Analytics</h3>
+
+                  <p class="project-category">Oct 2022</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="old"
+              >
+                <a href="https://github.com/ardasamett/Recommender-Systems">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/rec.png"
+                      alt="finance"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Recommendation Systems</h3>
+
+                  <p class="project-category">Apr 2023</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="old"
+              >
+                <a href="https://github.com/ardasamett/AB-Test">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/ab.png"
+                      alt="finance"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">A/B Test</h3>
+
+                  <p class="project-category">Apr 2023</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="old"
+              >
+                <a href="https://github.com/ardasamett/NLP-Sentiment-Analysis">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/nlp.png"
+                      alt="finance"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">NLP: Sentiment Analysis</h3>
+
+                  <p class="project-category">Aug 2021</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="old"
+              >
+                <a
+                  href="https://github.com/ardasamett/Students-Performance-In-Exams"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/stu.png"
+                      alt="finance"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">
+                    Students Performance in Exams Analysis
+                  </h3>
+
+                  <p class="project-category">Jun 2021</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="old"
+              >
+                <a href="https://github.com/ardasamett/Stroke-Prediction">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/stroke.png"
+                      alt="finance"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Stroke Prediction</h3>
+
+                  <p class="project-category">Jun 2021</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="old"
+              >
+                <a
+                  href="https://github.com/ardasamett/Date-Fruit-Classification-Tuned-XGBoost"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/class.png"
+                      alt="finance"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Date-Fruit Classification</h3>
+
+                  <p class="project-category">May 2021</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="old"
+              >
+                <a href="https://github.com/ardasamett/Docker-Deploy-ML-Model">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/docker.png"
+                      alt="finance"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">
+                    Dockerized Machine Learning Model Deployment
+                  </h3>
+
+                  <p class="project-category">Jul 2022</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="old"
+              >
+                <a href="https://github.com/ardasamett/ML-Model-Deployment">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/deploy.png"
+                      alt="finance"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">
+                    Machine Learning Model Deployment
+                  </h3>
+
+                  <p class="project-category">Jun 2021</p>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #BLOG
+      -->
+
+        <article class="blog" data-page="blog">
+          <header>
+            <h2 class="h2 article-title">Blog</h2>
+          </header>
+
+          <section class="blog-posts">
+            <ul class="blog-posts-list">
+              <li class="blog-post-item">
+                <a
+                  href="https://medium.com/@sametarda.dev/internship-at-jotform-week-1-4e4c20e9dbaa"
+                >
+                  <figure class="blog-banner-box">
+                    <img src="./assets/images/jf1.png" loading="lazy" />
+                  </figure>
+
+                  <div class="blog-content">
+                    <h3 class="h3 blog-item-title">
+                      Internship at Jotform - Week 1
+                    </h3>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a
+                  href="https://medium.com/@sametarda.dev/internship-at-jotform-week-2-8ef30914ed3a"
+                >
+                  <figure class="blog-banner-box">
+                    <img src="./assets/images/jf2.png" loading="lazy" />
+                  </figure>
+
+                  <div class="blog-content">
+                    <h3 class="h3 blog-item-title">
+                      Internship at Jotform - Week 2
+                    </h3>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a
+                  href="https://medium.com/@sametarda.dev/internship-at-jotform-week-3-168c12566df1"
+                >
+                  <figure class="blog-banner-box">
+                    <img src="./assets/images/jf3.png" loading="lazy" />
+                  </figure>
+
+                  <div class="blog-content">
+                    <h3 class="h3 blog-item-title">
+                      Internship at Jotform - Week 3
+                    </h3>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a
+                  href="https://medium.com/@sametarda.dev/internship-at-jotform-week-4-last-week-df624fbc5011"
+                >
+                  <figure class="blog-banner-box">
+                    <img src="./assets/images/jf4.png" loading="lazy" />
+                  </figure>
+
+                  <div class="blog-content">
+                    <h3 class="h3 blog-item-title">
+                      Internship at Jotform - Week 4
+                    </h3>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #CONTACT
+      --></div>
+    </main>
+
+    <!--
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
